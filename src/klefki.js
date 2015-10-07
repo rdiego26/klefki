@@ -64,7 +64,7 @@ var klefki = {
         }
 
         for(var i = 0, len = _cipherText.length; i < len; i++) {
-            if(_regex.test(_cipherText.charAt(i))) _plainText += String.fromCharCode(key.indexOf(_cipherText.charAt(i))+97);
+            if(_regex.test(_cipherText.charAt(i))) _plainText += String.fromCharCode(_key.indexOf(_cipherText.charAt(i))+97);
             else  _plainText += _cipherText.charAt(i);
         }
 
