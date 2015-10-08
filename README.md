@@ -6,7 +6,7 @@ It basically consists of substituting every plaintext character for a different 
 
 ## Installation
 
-  npm install klefki --save
+  `npm install klefki --save`
 
 ## Usage
 
