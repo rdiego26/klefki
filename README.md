@@ -21,7 +21,7 @@ var klefki = require('klefki'),
 
 ## Tests
 
-  npm test
+  `npm test`
 
 
 ## Contributing
