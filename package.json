@@ -1,6 +1,6 @@
 {
   "name": "klefki",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple substitution cipher module.",
   "main": "lib/klefki.js",
   "directories": {
