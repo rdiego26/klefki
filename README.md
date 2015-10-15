@@ -1,4 +1,10 @@
 # klefki
+
+> The dependency checker
+
+[![NPM Version](https://img.shields.io/npm/v/express.svg?style=flat)](https://www.npmjs.org/package/klefki)
+[![Build Status](https://travis-ci.org/rdiego26/klefki.svg?branch=master)](https://travis-ci.org/rdiego26/klefki)
+
 Simple substitution cipher module.
 It basically consists of substituting every plaintext character for a different ciphertext character. It differs from the [Caesar cipher](http://practicalcryptography.com/ciphers/caesar-cipher/) in that the cipher alphabet is not simply the alphabet shifted, it is completely jumbled.
 ![Pokémon klefki](http://img.pokemondb.net/artwork/dream/klefki.png)
@@ -23,7 +29,7 @@ var klefki = require('klefki'),
 
   `npm test`
 
- 
+
 ## Contributing
 
 Don't be shy, send a Pull Request! Here is how:
