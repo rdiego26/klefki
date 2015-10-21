@@ -4,6 +4,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/express.svg?style=flat)](https://www.npmjs.org/package/klefki)
 [![Build Status](https://travis-ci.org/rdiego26/klefki.svg?branch=master)](https://travis-ci.org/rdiego26/klefki)
+[![Dependencies](https://david-dm.org/rdiego26/klefki.svg)](https://david-dm.org/rdiego26/klefki.svg)
 
 Simple substitution cipher module.
 It basically consists of substituting every plaintext character for a different ciphertext character. It differs from the [Caesar cipher](http://practicalcryptography.com/ciphers/caesar-cipher/) in that the cipher alphabet is not simply the alphabet shifted, it is completely jumbled.
