@@ -7,7 +7,7 @@
 [![Dependencies](https://david-dm.org/rdiego26/klefki.svg)](https://david-dm.org/rdiego26/klefki.svg)
 
 Simple substitution cipher module.
-It basically consists of substituting every plaintext character for a different ciphertext character. It differs from the [Caesar cipher](http://practicalcryptography.com/ciphers/caesar-cipher/) in that the cipher alphabet is not simply the alphabet shifted, it is completely jumbled.
+It basically consists of substituting every plaintext character for a different ciphertext character. It differs from the [Caesar cipher](http://practicalcryptography.com/ciphers/caesar-cipher/) in that the cipher alphabet is not simply the alphabet shifted, it is completely jumbled.  
 ![Pokémon klefki](http://img.pokemondb.net/artwork/dream/klefki.png)
 
 
