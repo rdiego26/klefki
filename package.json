@@ -1,0 +1,8 @@
+{
+  "name": "klefki.page",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-less": "1.2.0"
+  }
+}
