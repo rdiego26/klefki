@@ -1,32 +1,8 @@
 {
-  "name": "klefki",
-  "version": "0.1.1",
-  "description": "Simple substitution cipher module.",
-  "main": "lib/klefki.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rdiego26/klefki"
-  },
-  "keywords": [
-    "cipher",
-    "simple",
-    "substitution",
-    "simple",
-    "cipher"
-  ],
-  "author": "Diego Ramos <rdiego26@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rdiego26/klefki/issues"
-  },
-  "homepage": "https://github.com/rdiego26/klefki",
+  "name": "klefki.page",
+  "version": "1.0.0",
   "devDependencies": {
-    "mocha": "^2.3.3"
+    "grunt": "0.4.5",
+    "grunt-contrib-less": "1.2.0"
   }
 }
