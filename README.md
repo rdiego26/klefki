@@ -22,8 +22,8 @@ var klefki = require('klefki'),
       _word = 'abracadabra',
       _myKey = 'myKey',
       _cipher = '';
-      _cipher = klefki.encrypt(_word, _myKey);
-      klefki.decrypt(_cipher) === _word; // true
+      _cipher = klefki.ciphers.simpleSubstitution.encrypt(_word, _myKey);
+      klefki.ciphers.simpleSubstitution.decrypt(_cipher) === _word; // true
 ```
 
 ## Tests
