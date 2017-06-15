@@ -1,7 +1,4 @@
-/**
- * Created by ramos on 07/10/15.
- */
-var _klefki = require('../lib/klefki.js');
+const _klefki = require('../lib/klefki.js');
 
 describe('klefki', function() {
 
@@ -9,11 +6,30 @@ describe('klefki', function() {
 
         describe('Crypt', function() {
 
+            it('Using character outside of the listing the same is used', function(done) {
+
+                const _word = '@@',
+                  _cipher = _klefki.ciphers.simpleSubstitution.encrypt(_word);
+
+                if(_word === _cipher) {
+                  done();
+                }
+
+            });
+
             it('Null string returns exception', function(done) {
                 try {
                     _klefki.ciphers.simpleSubstitution.encrypt(null);
                 } catch (e) {
                     done();
+                }
+            });
+
+            it('Empty string returns exception', function(done) {
+                try {
+                  _klefki.ciphers.simpleSubstitution.encrypt('');
+                } catch (e) {
+                  done();
                 }
             });
 
@@ -39,12 +55,32 @@ describe('klefki', function() {
 
         describe('Decrypt', function() {
 
+            it('Using character outside of the listing the same is used', function(done) {
+
+                const _word = '@@',
+                  _cipher = _klefki.ciphers.simpleSubstitution.encrypt(_word),
+                  _result = _klefki.ciphers.simpleSubstitution.decrypt(_cipher);
+
+                if(_result === _cipher) {
+                  done();
+                }
+
+            });
+
             it('Null string returns exception', function(done) {
                 try {
                     _klefki.ciphers.simpleSubstitution.decrypt(null);
                 } catch (e) {
                     done();
                 }
+            });
+
+            it('Empty string returns exception', function(done) {
+            try {
+              _klefki.ciphers.simpleSubstitution.decrypt('');
+            } catch (e) {
+              done();
+            }
             });
 
             it('Valid cipher string returns decrypt text', function(done) {
@@ -58,6 +94,7 @@ describe('klefki', function() {
             });
 
         });
+
 
     });
 
