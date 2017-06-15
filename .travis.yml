@@ -1,5 +1,11 @@
 language: node_js
 node_js:
   - "node"
+install:
+  - "npm install -g codecov mocha istanbul"
 script:
   - "npm test"
+  - "npm run cover"
+  - "codecov --token=cd1290e5-0e3d-4ec9-b447-dfa885352dc1"
+after_success:
+  - "npm run coveralls"
