@@ -5,4 +5,5 @@ install:
   - "npm install -g codecov"
 script:
   - "npm test"
-  - "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
+  - "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec "
+  - "codecov --token=cd1290e5-0e3d-4ec9-b447-dfa885352dc1"
