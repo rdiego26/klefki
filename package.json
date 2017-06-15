@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/rdiego26/klefki",
   "devDependencies": {
-    "mocha": "^2.3.3"
+    "mocha": "2.3.3"
   }
 }
