@@ -2,6 +2,8 @@
 
 > The dependency checker
 
+
+[![decov](https://codecov.io/gh/rdiego26/klefki/branch/master/graph/badge.svg)](https://codecov.io/gh/rdiego26/klefki)
 [![NPM Version](https://img.shields.io/npm/v/express.svg?style=flat)](https://www.npmjs.org/package/klefki)
 [![Build Status](https://travis-ci.org/rdiego26/klefki.svg?branch=master)](https://travis-ci.org/rdiego26/klefki)
 [![Dependencies](https://david-dm.org/rdiego26/klefki.svg)](https://david-dm.org/rdiego26/klefki.svg)
