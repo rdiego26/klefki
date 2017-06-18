@@ -1,5 +1,6 @@
 # klefki
 
+[![Known Vulnerabilities](https://snyk.io/test/github/rdiego26/klefki/badge.svg)](https://snyk.io/test/github/rdiego26/klefki)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a0a76a14056b48658641dc1a04aadaa5)](https://www.codacy.com/app/rdiego26/klefki?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rdiego26/klefki&amp;utm_campaign=Badge_Grade)
 [![decov](https://codecov.io/gh/rdiego26/klefki/branch/master/graph/badge.svg)](https://codecov.io/gh/rdiego26/klefki)
 [![NPM Version](https://img.shields.io/npm/v/express.svg?style=flat)](https://www.npmjs.org/package/klefki)
