@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "xo --env=mocha && mocha",
     "cover": "istanbul cover _mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
@@ -32,6 +32,7 @@
     "codecov": "1.0.0",
     "coveralls": "2.13.1",
     "istanbul": "0.4.5",
-    "mocha": "2.3.3"
+    "mocha": "2.3.3",
+    "xo": "0.18.2"
   }
 }
