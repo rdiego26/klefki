@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "node"
 install:
-  - "npm install -g codecov mocha istanbul"
+  - "npm install -g codecov mocha istanbul xo"
 script:
   - "npm test"
   - "npm run cover"
