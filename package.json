@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/rdiego26/klefki",
   "devDependencies": {
-    "codecov": "1.0.0",
+    "codecov": "3.6.5",
     "coveralls": "2.13.1",
     "istanbul": "0.4.5",
     "mocha": "2.3.3",
